@@ -81,9 +81,10 @@ p{color:  #434455;
 	line-height: 1.5; 
 	letter-spacing: 0.32px;}
 
-.link {color:#2E2F42;
-	/* padding: 24px 0; */
-} 
+.link {
+	color:#2E2F42;
+	 padding: 24px 0; 
+	} 
 .link:hover, .link:focus{color:#404BBF;}
 .link:active{color:#404BBF;}
 
@@ -133,8 +134,8 @@ address{font-style: normal;}
 	gap: 40px; */
 	display: block;
 	
-padding-top: 24px;
-padding-bottom: 24px;
+/* padding-top: 24px;
+padding-bottom: 24px; */
 	
 
 }
