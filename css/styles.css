@@ -82,7 +82,8 @@ p{color:  #434455;
 	letter-spacing: 0.32px;}
 
 .link {color:#2E2F42;
-	padding: 24px 0;} 
+	/* padding: 24px 0; */
+} 
 .link:hover, .link:focus{color:#404BBF;}
 .link:active{color:#404BBF;}
 
@@ -119,16 +120,23 @@ address{font-style: normal;}
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #2e2f42
+	color: #2e2f42;
+	display: inline-flex;
+	margin-right: 40px;
+
+
 }
 
 .navigation{
 	
-	display: flex;
+	/* display: flex;
+	gap: 40px; */
+	display: block;
+	
 padding-top: 24px;
 padding-bottom: 24px;
+	
 
-	gap: 40px;
 }
 .logo {display: flex;}
 
