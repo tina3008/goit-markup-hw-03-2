@@ -82,6 +82,7 @@ p{color:  #434455;
 	letter-spacing: 0.32px;}
 
 .link {
+	display: block;
 	color:#2E2F42;
 	 padding: 24px 0; 
 	} 
@@ -117,22 +118,22 @@ address{font-style: normal;}
 	
 .logo-nav .logo{margin-right: 76px;}
 
-.navigation li{
+.heder_list{
 	font-weight: 500;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 	display: inline-flex;
-	margin-right: 40px;
+	
 
 
 }
 
 .navigation{
 	
-	/* display: flex;
-	gap: 40px; */
-	display: block;
+	display: flex;
+	gap: 40px;
+	/* display: block; */
 	
 /* padding-top: 24px;
 padding-bottom: 24px; */
